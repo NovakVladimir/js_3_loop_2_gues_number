@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Gues_Number</title>
+</head>
+<body>
+    <section class="conditions">
+
+        <p> 10. Игра «Угадай число». Предложить пользователю загадать число от 0 до 100 и отгадать его следующим способом: каждую итерацию цикла делите диапазон чисел пополам, записываете результат в N и спрашиваете у пользователя «Ваше число > N, < N или == N?». В зависимости от того, что указал пользователь, уменьшаете диапазон. Начальный диапазон от 0 до 100, поделили пополам и получили 50. Если пользователь указал, что его число > 50, то изменили диапазон на от 51 до 100. И так до тех пор, пока пользователь не выберет == N.</p>
+        <!-- <span>From</span><input type="number" id="number_10_1">
+        <span>To</span><input type="number" id="number_10_2"> -->
+        <input type="button" value="Enter" onclick="guesNumb(0, 100)">
+
+    </section>
+
+    <section class="output">
+        <div id = "container">
+
+        </div>
+        <div id = "container_2">
+
+        </div>
+    </section>
+    <script src="js/main.js">
+
+    </script>
+
+</body>
+</html>
